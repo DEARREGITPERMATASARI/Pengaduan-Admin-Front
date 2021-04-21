@@ -1,18 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Halaman Admin E-Pengaduan</h1>
+   
+        <h2>Layanan desa mempermudah masyarakat <br />dalam pengaduan masalah.</h2>
+        <a href="/login" class="btn-get-started scrollto">Masuk Sekarang</a>
+
+      </div>
+    </section><!-- End Hero Section -->
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
